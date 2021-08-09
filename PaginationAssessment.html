@@ -1,0 +1,402 @@
+<html>
+    <head>
+        <title> Pagination Assessment</title>
+        <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css" />
+        
+        </head>
+    <body>
+        <form id="inputform" method="post">
+            <input type="checkbox" id="country1" value="India" />India
+            <input type="checkbox" id="country2" value="America" />America
+            <input type="checkbox" id="country3" value="Australia" />Australia
+            <input type="checkbox" id="country4" value="England" />England
+            <br>
+            <br>
+            <input type="checkbox" id="country4" value="England" />Chennai
+            <input type="checkbox" id="country4" value="England" />Mumbai
+            <input type="checkbox" id="country4" value="England" />Delhi
+            <input type="checkbox" id="country4" value="England" />Bangalore
+            <input type="checkbox" id="country4" value="England" />New York
+            <input type="checkbox" id="country4" value="England" />Washington
+            <input type="checkbox" id="country4" value="England" />Los Angeles
+            <input type="checkbox" id="country4" value="England" />California
+            <br>
+            <br>
+            <label for="agecategory">Choose your age</label>
+            <select id="agecategory" name="age">
+                <option>20-30</option>
+                <option>31-40</option>
+                <option>41-50</option>
+
+            </select>
+            <br>
+            <br>
+
+            <label for="salarycategory">Choose your salary</label>
+            <select id="salarycategory" name="salary">
+                <option>21000-31000</option>
+                <option>31000-41000</option>
+                <option>41000-51000</option>
+            
+            </select>
+            <br><br>
+            <input type="button" value="submit" id="Submitbutton">
+            </form>
+            <br>
+            <br>
+            <table id="tableid">
+                <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Office</th>
+                <th>Salary</th>
+                <th>City</th>
+                <th>Country</th>
+             </tr>
+             </thead>
+            <tr>
+                <td>Naveen<td>
+                <td>24</td>
+                <td>Cts</td>
+                <td>35000</td>
+                <td>Bangalore</td>
+                <td>India</td>
+            </tr>
+            <tr>
+            <td>Nithin<td>
+            <td>21</td>
+            <td>Ziffity</td>td>
+            <td>25000</td>
+            <td>Chennai</td>
+            <td>India</td>
+            </tr>
+            <tr>
+            <td>Alex</td>
+            <td>43</td>
+            <td>Google</td>
+            <td>47000</td>
+            <td>Los Angeles</td>
+            <td>America</td>
+            </tr>
+            <tr>
+            <td>Zaire</td>
+            <td>22</td>
+            <td>Opera</td>
+            <td>42000</td>
+            <td>New York</td>
+            <td>America</td>
+            </tr>
+            <tr>
+            <td>Jordan</td>
+            <td>26</td>
+            <td>Microsoft</td>
+            <td>35000</td>
+            <td>Delhi</td>
+            <td>India</td>
+            </tr>
+            <tr>
+            <td>Jimmy</td>
+            <td>48</td>
+            <td>Yahoo</td>
+            <td>47000</td>
+            <td>Los Angeles</td>
+            <td>America</td>
+            </tr>
+            <tr>
+            <td>John</td>
+            <td>35</td>
+            <td>Opera</td>
+            <td>37000</td>
+            <td>New York</td>
+            <td>America</td>
+            </tr>
+            <tr>
+            <td>Naren</td>
+            <td>24</td>
+            <td>Accenture</td>
+            <td>35000</td>
+            <td>Chennai</td>
+            <td>India</td>
+            </tr>
+            <tr>
+            <td>Naveen</td>
+            <td>32</td>
+            <td>tcs</td>
+            <td>28000</td>
+            <td>Chennai</td>
+            <td>India</td>
+            </tr>
+            <tr>
+            <td>Steven</td>
+            <td>47</td>
+            <td>Google</td>
+            <td>45000</td>
+            <td>Melbourne</td>
+            <td>Australia</td></tr>
+            <tr>
+            <td>Zammit</td>
+            <td>34</td>
+            <td>Cts</td>
+            <td>42000</td>
+            <td>Sydney</td>
+            <td>Australia</td>
+            </tr>
+            <tr>
+            <td>Jeremy</td>
+            <td>24</td>
+            <td>Cts</td>
+            <td>29000</td>
+            <td>Manchester</td>
+            <td>England</td>
+            </tr>
+            <tr>
+            <td>Fidel</td>
+            <td>33</td>
+            <td>Cts</td>
+            <td>45000</td>
+            <td>London</td>
+            <td>England</td>
+            </tr>
+            <tr>
+            <td>Roger</td>
+            <td>37</td>
+            <td>Wlamart</td>
+            <td>42000</td>
+            <td>Nottingham</td>
+            <td>England</td>
+            </tr>
+            <tr>
+            <td>Platten</td>
+            <td>26</td>
+            <td>Cts</td>
+            <td>35000</td>
+            <td>London</td>
+            <td>England</td>
+            </tr>
+            <tr>
+            <td>Marsh<td>
+            <td>34</td>
+            <td>Opera</td>
+            <td>35000</td>
+            <td>Bangalore</td>
+            <td>India</td>
+            </tr>
+            <tr>
+            <td>Warner<td>
+            <td>37</td>
+            <td>Google</td>
+            <td>47000</td>
+            <td>Melbourne</td>
+            <td>Australia</td>
+            </tr>
+            <tr>
+            <td>Steve<td>
+            <td>33</td>
+            <td>Google</td>
+            <td>28000</td>
+            <td>Perth</td>
+            <td>Australia</td>
+            </tr>
+            <tr>
+           <td>Smith<td>
+           <td>24</td>
+           <td>Cts</td>
+           <td>27999</td>
+           <td>Hobart</td>
+           <td>Australia</td>
+           </tr>
+           <tr>
+           <td>Mitchell<td>
+           <td>45</td>
+           <td>Google</td>
+           <td>45000</td>
+           <td>Hobart</td>
+           <td>Australia</td>
+           </tr>
+           <tr>
+           <td>Zampa<td>
+           <td>28</td>
+           <td>Cts</td>
+           <td>35000</td>
+           <td>Perth</td>
+           <td>Australia</td>
+           </tr>
+           <tr>
+           <td>Vihan<td>
+           <td>24</td>
+           <td>Google</td>
+           <td>450000</td>
+           <td>Chennai</td>
+           <td>India</td>
+           </tr>
+           <tr>
+           <td>Girija<td>
+           <td>49</td>
+           <td>Cts</td>
+           <td>35000</td>
+           <td>Bangalore</td>
+           <td>India</td>
+           </tr>
+           <tr>
+           <td>kausic<td>
+           <td>24</td>
+           <td>Cts</td>
+           <td>42000</td>
+           <td>Bangalore</td>
+           <td>India</td>
+           </tr>
+           <tr>
+           <td>kishore<td>
+           <td>40</td>
+           <td>Accenture</td>
+           <td>45000</td>
+           <td>Chennai</td>
+           <td>India</td>
+           </tr>
+           <tr>
+           <td>Mark<td>
+           <td>34</td>
+           <td>Google</td>
+           <td>49000</td>
+           <td>New York</td>
+           <td>America</td>
+           </tr>
+           <tr>
+           <td>Zuckerberg<td>
+           <td>45</td>
+           <td>google</td>
+           <td>28000</td>
+           <td>Los Angeles</td>
+           <td>America</td>
+           </tr>
+           <tr>
+           <td>Sophia<td>
+           <td>24</td>
+           <td>Microsoft</td>
+           <td>42000</td>
+           <td>New York</td>
+           <td>America</td>
+           </tr>
+           <tr>
+           <td>Buessing<td>
+           <td>44</td>
+           <td>Cts</td>
+           <td>35,000</td>
+           <td>New York</td>
+           <td>America</td>
+           </tr>
+           <tr>
+           <td>Alice<td>
+           <td>26</td>
+           <td>Zoho</td>
+           <td>35000</td>
+           <td>Manchester</td>
+           <td>England</td>
+           </tr>
+           <tr>
+           <td>Ajay<td>
+           <td>36</td>
+           <td>Cts</td>
+           <td>35000</td>
+           <td>London</td>
+           <td>England</td>
+           </tr>
+           <tr>
+           <td>Kishesh<td>
+           <td>33</td>
+           <td>Google</td>
+           <td>46000</td>
+           <td>Headingley</td>
+           <td>England</td>
+           </tr>
+                                                                
+                                                            
+                                                        
+    </table>
+
+                </body>
+                <script src="importedcode.js"></script>
+                <script type="text/javascript" src="//cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+                <script>
+                    $("#tableid").DataTable({
+                        'bSearchable':true,
+                        'processing':true
+
+                    });
+                     </script>
+                </html>
+
+                                                
+                                            
+                                        
+                                    
+                                
+                            
+                        
+                    
+                
+            
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </table>
+
+            
+         </body>
+         
+         <script src="importedcode.js"></script>
+         <script src="jqueryUI/jquery-ui.js"></script>
+         <script src="//cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+         <script>
+             $("#Submitbutton").click(function(){
+
+                 $("#datatablefield")
+
+
+
+
+
+             })
+
+
+
+
+
+
+
+
+
+         </script>
+</html>
